@@ -43,7 +43,7 @@ Extensions in `~/.pi/agent/extensions/` are junction paths pointing to the folde
 
 Extensions installed via `pi install npm:...` live in `~/.pi/agent/npm/node_modules/`. Their source code, docs, and schemas are available there. Config files still go in `~/.pi/agent/extensions/<package>/config.json`.
 
-### Commands (for `pi-subagents` and similar TypeScript extensions)
+### Commands (for `picc-subagents` and similar TypeScript extensions)
 
 ```bash
 npm run lint        # biome check
