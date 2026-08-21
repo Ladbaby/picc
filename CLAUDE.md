@@ -24,6 +24,8 @@ The live pi agent config is at `~/.pi/agent/`. Key files:
 
 Extensions in `~/.pi/agent/extensions/` are junction paths pointing to the folders under `../`.
 
+> In Windows, make sure to create junctions via PowerShell commands instead of `ln -s`.
+
 | Extension | Purpose |
 |---|---|
 | `picc-bash` | Bash tool with background command support |
