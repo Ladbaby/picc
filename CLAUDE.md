@@ -14,7 +14,6 @@ The live pi agent config is at `~/.pi/agent/`. Key files:
 - **`settings.json`** — pi core config: default model, mode, theme, package list, compaction settings. Edit `defaultModel` to change the primary model. Add/remove packages in the `packages` array.
 - **`models.json`** — LLM provider config. Uses env-var interpolation (`$ANTHROPIC_AUTH_TOKEN` for the API key). Edit `baseUrl` and `models` array to point at your provider. Model IDs here must match `model-profiles.json`.
 - **`model-profiles.json`** — Maps modes (`default`, `plan`, `ask`, `auto`) to model IDs. IDs must exist in `models.json`.
-- **`extensions/pi-permission-system/config.json`** — Permission policy for `picc-permission-system`. Uses a flat `permission` map with `allow`/`ask`/`deny` actions per tool surface (`read`, `write`, `bash`, `path`, `external_directory`, etc.).
 
 ## Environment Variables
 
@@ -35,8 +34,7 @@ Extensions in `~/.pi/agent/extensions/` are junction paths pointing to the folde
 | `picc-init` | `/init` command like Claude Code |
 | `picc-loop` | `/loop` command like Claude Code |
 | `picc-memory` | Claude Code style memory persistence |
-| `picc-permission-modes` | Claude Code style permission modes: default, acceptEdits, plan, bypass, auto |
-| `picc-permission-system` | Bash/path permission rules|
+| `picc-permission-modes` | Claude Code style permission modes: default, acceptEdits, plan, bypass, auto; user defined permission rules |
 | `picc-subagents` | Claude Code style sub-agents|
 | `picc-tasks` | Task tracking tools |
 | `picc-working-spinner` | Claude Code style working indicator |
