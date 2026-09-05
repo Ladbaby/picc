@@ -27,17 +27,24 @@ Extensions in `~/.pi/agent/extensions/` are junction paths pointing to the folde
 
 | Extension | Purpose |
 |---|---|
+| `picc-ask-user-question` | AskUserQuestion tool |
 | `picc-bash` | Bash tool with background command support |
 | `picc-claude-shim` | Translation layer for Claude Code SDK |
+| `picc-edit` | Claude Code style Edit tool |
 | `picc-exit-command` | `/exit` command like Claude Code |
+| `picc-glob` | Claude Code style Glob tool |
 | `picc-goal` | Claude Code style long-running goal supervisor |
+| `picc-grep` | Claude Code style Grep tool |
 | `picc-init` | `/init` command like Claude Code |
 | `picc-loop` | `/loop` command like Claude Code |
 | `picc-memory` | Claude Code style memory persistence |
 | `picc-permission-modes` | Claude Code style permission modes: default, acceptEdits, plan, bypass, auto; user defined permission rules |
+| `picc-read` | Claude Code style Read tool |
+| `picc-recap` | Claude Code style away summary |
 | `picc-subagents` | Claude Code style sub-agents|
 | `picc-tasks` | Task tracking tools |
 | `picc-working-spinner` | Claude Code style working indicator |
+| `picc-write` | Claude Code style Write tool |
 
 ### npm-installed extensions
 
