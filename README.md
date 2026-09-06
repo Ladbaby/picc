@@ -1,6 +1,16 @@
+<div align="center">
+
 # picc
 
-A tracker-free drop-in replacement for Claude Code, achieved by a set of open source plugins built upon the [pi coding agent](https://pi.dev).
+> **A tracker-free drop-in replacement for Claude Code**
+
+**Starting point for building your own harness**
+
+<img src="images/logo.png" height=200>
+
+</div>
+
+A set of open source plugins built upon the [pi coding agent](https://pi.dev).
 
 If you've used [Claude Code](https://www.anthropic.com/claude-code) and want to switch to a fully open-source stack, picc faithfully ports Claude Code's harness into pi so it feels familiar out of the box: the same tools, the same commands, the same permission modes, the same UI touches.
 
