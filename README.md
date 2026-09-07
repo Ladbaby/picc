@@ -27,40 +27,40 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 
 ### Claude Code's core capabilities
 
-| Extension | What it does |
-|---|---|
-| [picc-permission-modes](https://github.com/Ladbaby/picc-permission-modes) | Ports Claude Code's permission system to pi: the `default`, `acceptEdits`, `plan`, `bypass`, and `auto` modes, plus user-defined permission rules. |
-| [picc-memory](https://github.com/Ladbaby/picc-memory) | Persistent, file-based memory system that survives across conversations |
-| [picc-subagents](https://github.com/Ladbaby/picc-subagents) | The `Agent` tool — sub-agents with foreground/background runs, custom agent types, a live widget, and FleetView |
+| Extension | What it does |Download counts|
+|---|---|---|
+| [picc-permission-modes](https://github.com/Ladbaby/picc-permission-modes) | Ports Claude Code's permission system to pi: the `default`, `acceptEdits`, `plan`, `bypass`, and `auto` modes, plus user-defined permission rules. |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-permission-modes.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-permission-modes)|
+| [picc-memory](https://github.com/Ladbaby/picc-memory) | Persistent, file-based memory system that survives across conversations |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-memory.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-memory)|
+| [picc-subagents](https://github.com/Ladbaby/picc-subagents) | The `Agent` tool — sub-agents with foreground/background runs, custom agent types, a live widget, and FleetView |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-subagents.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-subagents)|
 
 ### Tools
 
-| Extension | What it does |
-|---|---|
-| [picc-tasks](https://github.com/Ladbaby/picc-tasks) | Claude Code style task tracking: `TaskCreate`, `TaskGet`, `TaskList`, `TaskUpdate` |
-| [picc-bash](https://github.com/Ladbaby/picc-bash) | Claude Code style `Bash` tool with background command support, plus `TaskStop` (overrides pi's built-in `bash`) |
-| [picc-glob](https://github.com/Ladbaby/picc-glob) | Claude Code style `Glob` file finder, backed by ripgrep |
-| [picc-grep](https://github.com/Ladbaby/picc-grep) | Claude Code style `Grep` content search, backed by ripgrep (overrides pi's built-in `grep`) |
-| [picc-read](https://github.com/Ladbaby/picc-read) | Claude Code style `Read` tool (overrides pi's built-in `read`) |
-| [picc-write](https://github.com/Ladbaby/picc-write) | Claude Code style `Write` tool (overrides pi's built-in `write`) |
-| [picc-edit](https://github.com/Ladbaby/picc-edit) | Claude Code style `Edit` tool (overrides pi's built-in `edit`) |
-| [picc-ask-user-question](https://github.com/Ladbaby/picc-ask-user-question) | `AskUserQuestion` tool — structured multiple-choice questions mid-task |
+| Extension | What it does |Download counts|
+|---|---|---|
+| [picc-tasks](https://github.com/Ladbaby/picc-tasks) | Claude Code style task tracking: `TaskCreate`, `TaskGet`, `TaskList`, `TaskUpdate` |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-tasks.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-tasks)|
+| [picc-bash](https://github.com/Ladbaby/picc-bash) | Claude Code style `Bash` tool with background command support, plus `TaskStop` (overrides pi's built-in `bash`) |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-bash.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-bash)|
+| [picc-glob](https://github.com/Ladbaby/picc-glob) | Claude Code style `Glob` file finder, backed by ripgrep |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-glob.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-glob)|
+| [picc-grep](https://github.com/Ladbaby/picc-grep) | Claude Code style `Grep` content search, backed by ripgrep (overrides pi's built-in `grep`) |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-grep.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-grep)|
+| [picc-read](https://github.com/Ladbaby/picc-read) | Claude Code style `Read` tool (overrides pi's built-in `read`) |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-read.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-read)|
+| [picc-write](https://github.com/Ladbaby/picc-write) | Claude Code style `Write` tool (overrides pi's built-in `write`) |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-write.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-write)|
+| [picc-edit](https://github.com/Ladbaby/picc-edit) | Claude Code style `Edit` tool (overrides pi's built-in `edit`) |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-edit.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-edit)|
+| [picc-ask-user-question](https://github.com/Ladbaby/picc-ask-user-question) | `AskUserQuestion` tool — structured multiple-choice questions mid-task |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-ask-user-question.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-ask-user-question)|
 
 ### Commands
 
 <!-- | [picc-exit-command](https://github.com/Ladbaby/picc-exit-command) | `/exit` — quits pi, same as `/quit` | -->
 <!-- | [picc-goal](https://github.com/Ladbaby/picc-goal) | Long-running `/goal` supervisor for multi-step work | -->
-| Extension | What it does |
-|---|---|
-| [picc-loop](https://github.com/Ladbaby/picc-loop) | `/loop` — Claude Code style cron scheduling for recurring or one-shot jobs |
-| [picc-init](https://github.com/Ladbaby/picc-init) | `/init` — generates a project context file for the agent |
+| Extension | What it does |Download counts|
+|---|---|---|
+| [picc-loop](https://github.com/Ladbaby/picc-loop) | `/loop` — Claude Code style cron scheduling for recurring or one-shot jobs |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-loop.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-loop)|
+| [picc-init](https://github.com/Ladbaby/picc-init) | `/init` — generates a project context file for the agent |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-init.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-init)|
 
 ### Nice-to-have
 
-| Extension | What it does |
-|---|---|
-| [picc-recap](https://github.com/Ladbaby/picc-recap) | Away summary — a recap of what happened after you've stepped away |
-| [picc-working-spinner](https://github.com/Ladbaby/picc-working-spinner) | Claude Code style working indicator: spinner glyphs, shimmer, mode-aware status line, token counter |
+| Extension | What it does |Download counts|
+|---|---|---|
+| [picc-recap](https://github.com/Ladbaby/picc-recap) | Away summary — a recap of what happened after you've stepped away |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-recap.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-recap)|
+| [picc-working-spinner](https://github.com/Ladbaby/picc-working-spinner) | Claude Code style working indicator: spinner glyphs, shimmer, mode-aware status line, token counter |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-working-spinner.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-working-spinner)|
 
 ## Installation
 
