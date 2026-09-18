@@ -30,8 +30,8 @@ Extensions in `~/.pi/agent/extensions/` are junction paths pointing to the folde
 | `picc-ask-user-question` | AskUserQuestion tool |
 | `picc-bash` | Bash tool with background command support |
 | `picc-claude-shim` | Translation layer for Claude Code SDK |
+| `picc-command-alias` | Claude-style command aliases: `/exit`, `/clear`, `/reset` (supersedes `picc-exit-command`) |
 | `picc-edit` | Claude Code style Edit tool |
-| `picc-exit-command` | `/exit` command like Claude Code |
 | `picc-glob` | Claude Code style Glob tool |
 | `picc-goal` | Claude Code style long-running goal supervisor |
 | `picc-grep` | Claude Code style Grep tool |
