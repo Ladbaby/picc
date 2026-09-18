@@ -49,10 +49,10 @@ Third-party tools that spawn `claude` can drive pi with zero changes.
 
 ### Commands
 
-<!-- | [picc-exit-command](https://github.com/Ladbaby/picc-exit-command) | `/exit` — quits pi, same as `/quit` | -->
 <!-- | [picc-goal](https://github.com/Ladbaby/picc-goal) | Long-running `/goal` supervisor for multi-step work | -->
 | Extension | What it does |Download counts|
 |---|---|---|
+| [picc-command-alias](https://github.com/Ladbaby/picc-command-alias) | Claude-style command aliases: `/exit`, `/clear`, `/reset` mapped to pi's built-in behaviors |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-command-alias.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-command-alias)|
 | [picc-loop](https://github.com/Ladbaby/picc-loop) | `/loop` — Claude Code style cron scheduling for recurring or one-shot jobs |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-loop.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-loop)|
 | [picc-init](https://github.com/Ladbaby/picc-init) | `/init` — generates a project context file for the agent |[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-init.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-init)|
 
@@ -80,6 +80,7 @@ pi install npm:@ladbabynpm/picc-read
 pi install npm:@ladbabynpm/picc-write
 pi install npm:@ladbabynpm/picc-edit
 pi install npm:@ladbabynpm/picc-ask-user-question
+pi install npm:@ladbabynpm/picc-command-alias
 pi install npm:@ladbabynpm/picc-loop
 pi install npm:@ladbabynpm/picc-init
 pi install npm:@ladbabynpm/picc-recap
