@@ -23,7 +23,8 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 
 ### Drop-in replacement for Claude Code CLI
 
-[UNDER TESTING] [pi-claude-shim](https://github.com/Ladbaby/picc-claude-shim) is a drop-in replacement for the Claude Code CLI, powered by pi. Third-party tools that spawn `claude` and speak the JSON-lines protocol (such as [hapi](https://github.com/tiann/hapi)) can drive a pi session with zero changes.
+[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-claude-shim.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-claude-shim) [picc-claude-shim](https://github.com/Ladbaby/picc-claude-shim) disguise pi agent as Claude Code CLI, so pi can painlessly integrate with softwares built for Claude Code, like [hapi](https://github.com/tiann/hapi) and [T3 Code](https://github.com/pingdotgg/t3code).
+Third-party tools that spawn `claude` can drive pi with zero changes.
 
 ### Claude Code's core capabilities
 
@@ -67,22 +68,22 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 Everything is installable from npm:
 
 ```bash
+pi install npm:@ladbabynpm/picc-claude-shim
+pi install npm:@ladbabynpm/picc-permission-modes
+pi install npm:@ladbabynpm/picc-memory
+pi install npm:@ladbabynpm/picc-subagents
+pi install npm:@ladbabynpm/picc-tasks
+pi install npm:@ladbabynpm/picc-bash
+pi install npm:@ladbabynpm/picc-glob
+pi install npm:@ladbabynpm/picc-grep
 pi install npm:@ladbabynpm/picc-read
 pi install npm:@ladbabynpm/picc-write
 pi install npm:@ladbabynpm/picc-edit
-pi install npm:@ladbabynpm/picc-glob
-pi install npm:@ladbabynpm/picc-grep
-pi install npm:@ladbabynpm/picc-bash
 pi install npm:@ladbabynpm/picc-ask-user-question
-pi install npm:@ladbabynpm/picc-tasks
-pi install npm:@ladbabynpm/picc-subagents
-pi install npm:@ladbabynpm/picc-memory
+pi install npm:@ladbabynpm/picc-loop
+pi install npm:@ladbabynpm/picc-init
 pi install npm:@ladbabynpm/picc-recap
 pi install npm:@ladbabynpm/picc-working-spinner
-pi install npm:@ladbabynpm/picc-init
-pi install npm:@ladbabynpm/picc-loop
-pi install npm:@ladbabynpm/picc-permission-modes
-pi install npm:@ladbabynpm/picc-claude-shim
 ```
 
 Install any subset — each extension is independent and only overrides what it's designed to override.
