@@ -8,18 +8,23 @@
 
 <img src="images/logo.png" height=200>
 
+[[English]](README.md) [[中文]](README_zh.md)
+
 </div>
 
 A set of open source plugins built upon the [pi coding agent](https://pi.dev).
 
 If you've used [Claude Code](https://www.anthropic.com/claude-code) and want to switch to a fully open-source stack, picc faithfully ports Claude Code's harness into pi so it feels familiar out of the box: the same tools, the same commands, the same permission modes, the same UI touches.
 
-Moreover, it's also a good starting point for building your own harness upon pi.
-Everyone knows Claude Code has (almost) the best harness, but no set of plugins faithfully replicates its harness.
+Moreover, it's a good starting point for building your own harness upon pi.
+Everyone knows Claude Code has (almost) the best harness, but no set of plugins has faithfully replicated its harness before.
 
-> DISCLAIMER: Codes are highly vibe-coded, but based on solid references. The author uses [Tresor](https://github.com/Ladbaby/Tresor) to inspect pi's traffic during debugging, in order to make sure the extensions work as expected, instead of reading the source code directly.
+> DISCLAIMER: The code is highly vibe-coded, but based on solid references. The author uses [Tresor](https://github.com/Ladbaby/Tresor) to inspect pi's traffic during debugging, in order to make sure the extensions work as expected, instead of reading the source code directly.
 
 ## Why picc?
+
+- Claude Code: A **fat** agent with everything inside, including **trackers**. Mostly **not customizable**.
+- picc (pi): A **thin** agent core, can write and use **any custom extension** you want, including those replicating Claude Code's harness.
 
 ![comparison-cc](images/comparison-cc.png)
 
@@ -35,7 +40,7 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 
 ### Drop-in replacement for Claude Code CLI
 
-[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-claude-shim.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-claude-shim) [picc-claude-shim](https://github.com/Ladbaby/picc-claude-shim) disguise pi agent as Claude Code CLI, so pi can painlessly integrate with softwares built for Claude Code, like [hapi](https://github.com/tiann/hapi) and [T3 Code](https://github.com/pingdotgg/t3code).
+[![npm downloads](https://img.shields.io/npm/dt/@ladbabynpm/picc-claude-shim.svg)](https://www.npmjs.com/package/@ladbabynpm/picc-claude-shim) [picc-claude-shim](https://github.com/Ladbaby/picc-claude-shim) disguises the pi agent as the Claude Code CLI, so pi can painlessly integrate with software built for Claude Code, like [hapi](https://github.com/tiann/hapi) and [T3 Code](https://github.com/pingdotgg/t3code).
 Third-party tools that spawn `claude` can drive pi with zero changes.
 
 ### Claude Code's core capabilities
@@ -123,8 +128,8 @@ Install any subset — each extension is independent and only overrides what it'
 
 picc is intended as a starting point, not a fixed bundle:
 
-- **Change your model** — edit `defaultModel` in `~/.pi/agent/settings.json`; point `~/.pi/agent/models.json` at any provider.
-- **Permission rules** — configure per-tool, per-pattern rules in `picc-permission-modes`' config.
+- **Change your model** — refer to [pi documentation](https://pi.dev/docs/latest/models); edit `defaultModel` in `~/.pi/agent/settings.json`; point `~/.pi/agent/models.json` at any provider.
+- **Permission rules** — configure per-tool, per-pattern rules in [picc-permission-modes](https://github.com/Ladbaby/picc-permission-modes)' config.
 - **Customize** — every extension is a small, readable TypeScript file. Fork it, tweak it, `pi install` your own.
 
 ## Links
