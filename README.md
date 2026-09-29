@@ -19,6 +19,18 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 
 > DISCLAIMER: Codes are highly vibe-coded, but based on solid references. The author uses [Tresor](https://github.com/Ladbaby/Tresor) to inspect pi's traffic during debugging, in order to make sure the extensions work as expected, instead of reading the source code directly.
 
+## Why picc?
+
+![comparison-cc](images/comparison-cc.png)
+
+||picc (pi)|Claude Code|
+|---|---|---|
+|Open source?|✅|❌ (privacy trackers inside)
+|Customizable?|✅ (fully)|⚠️partially (via Claude Mods)
+|3rd party provider?|✅|⚠️partially (may need additional software for API translation)
+|Claude Code's Ecosystem|⚠️partially (can disguise as Claude Code CLI)|✅
+|Pi's Ecosystem|✅|❌
+
 ## What you get
 
 ### Drop-in replacement for Claude Code CLI
