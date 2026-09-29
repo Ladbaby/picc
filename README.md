@@ -23,13 +23,13 @@ Everyone knows Claude Code has (almost) the best harness, but no set of plugins 
 
 ![comparison-cc](images/comparison-cc.png)
 
-||picc (pi)|Claude Code|
+||Claude Code|picc (pi)|
 |---|---|---|
-|Open source?|✅|❌ (privacy trackers inside)
-|Customizable?|✅ (fully)|⚠️partially (via Claude Mods)
-|3rd party provider?|✅|⚠️partially (may need additional software for API translation)
-|Claude Code's Ecosystem|⚠️partially (can disguise as Claude Code CLI)|✅
-|Pi's Ecosystem|✅|❌
+|Open source?|❌ (privacy trackers inside)|✅|
+|Customizable?|⚠️partially (via Claude Mods)|✅ (fully)|
+|3rd party provider?|⚠️partially (may need additional software for API translation)|✅|
+|Claude Code's Ecosystem|✅|⚠️partially (can disguise as Claude Code CLI)|
+|Pi's Ecosystem|❌|✅|
 
 ## What you get
 
