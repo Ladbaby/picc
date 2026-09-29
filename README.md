@@ -2,13 +2,13 @@
 
 # picc
 
+[[English]](README.md) [[中文]](README_zh.md)
+
 > **A tracker-free drop-in replacement for Claude Code**
 
 **Starting point for building your own harness**
 
 <img src="images/logo.png" height=200>
-
-[[English]](README.md) [[中文]](README_zh.md)
 
 </div>
 

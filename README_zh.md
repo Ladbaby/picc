@@ -2,13 +2,13 @@
 
 # picc
 
+[[English]](README.md) [[中文]](README_zh.md)
+
 > **一个无追踪器的 Claude Code 即插即用替代品**
 
 **从这里开始打造属于你自己的 harness**
 
 <img src="images/logo.png" height=200>
-
-[[English]](README.md) [[中文]](README_zh.md)
 
 </div>
 
