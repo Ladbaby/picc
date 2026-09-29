@@ -79,7 +79,23 @@ Third-party tools that spawn `claude` can drive pi with zero changes.
 
 Prerequisite: Install pi coding agent (the core of picc) following its [installation guide](https://pi.dev/docs/latest/quickstart).
 
-After pi is installed, the set of picc's extensions can be installed via:
+After pi is installed, you can install all picc extensions with the platform-specific script:
+
+**Unix-based systems (Linux/macOS):**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Ladbaby/picc/main/install.sh | bash
+```
+
+**Windows (PowerShell):**
+
+```powershell
+iwr https://raw.githubusercontent.com/Ladbaby/picc/main/install.ps1 -UseBasicParsing | iex
+```
+
+---
+
+Alternatively, manually run the following lines:
 
 ```bash
 pi install npm:@ladbabynpm/picc-claude-shim
