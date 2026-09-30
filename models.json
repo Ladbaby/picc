@@ -1,0 +1,41 @@
+{
+  "providers": {
+    "MyAnthropicProvider": {
+      "baseUrl": "YOUR_ANTHROPIC_PROVIDER_URL",
+      "api": "anthropic-messages",
+      "apiKey": "$ANTHROPIC_AUTH_TOKEN",
+      "models": [
+        {
+          "id": "claude-sonnet",
+          "contextWindow": 204800,
+          "maxTokens": 32000,
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true
+        },
+        {
+          "id": "claude-opus",
+          "contextWindow": 204800,
+          "maxTokens": 32000,
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true
+        },
+        {
+          "id": "claude-haiku",
+          "contextWindow": 204800,
+          "maxTokens": 32000,
+          "input": [
+            "text",
+            "image"
+          ],
+          "reasoning": true
+        }
+      ]
+    }
+  }
+}

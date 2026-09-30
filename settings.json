@@ -1,0 +1,17 @@
+{
+  "defaultProvider": "MyAnthropicProvider",
+  "defaultModel": "claude-sonnet",
+  "defaultThinkingLevel": "medium",
+  "defaultProjectTrust": "ask",
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 16384
+  },
+  "enableSkillCommands": true,
+  "packages": [],
+  "theme": "light/dark",
+  "collapseChangelog": true,
+  "enableInstallTelemetry": false,
+  "doubleEscapeAction": "tree",
+  "hideThinkingBlock": true
+}
