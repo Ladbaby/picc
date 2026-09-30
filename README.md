@@ -128,7 +128,7 @@ Install any subset — each extension is independent and only overrides what it'
 
 picc is intended as a starting point, not a fixed bundle:
 
-- **Change your model** — refer to [pi documentation](https://pi.dev/docs/latest/models), or refer to the example [~/.pi/agent/models.json](models.json) and [~/.pi/agent/settings.json](settings.json) files.
+- **Change your model** — refer to [pi documentation](https://pi.dev/docs/latest/models), or refer to the example [~/.pi/agent/models.json](models.json), [~/.pi/agent/settings.json](settings.json), and [~/.pi/agent/keybindings.json](keybindings.json) files.
 - **Permission rules** — configure per-tool, per-pattern rules in [picc-permission-modes](https://github.com/Ladbaby/picc-permission-modes)' config.
 - **Customize** — every extension is a small, readable TypeScript file. Fork it, tweak it, `pi install` your own.
 
