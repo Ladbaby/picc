@@ -127,7 +127,7 @@ pi install npm:@ladbabynpm/picc-working-spinner
 
 picc 可以是你定制 Agent 的起点，但肯定不会是终点：
 
-- **更换模型**——参考 [Pi 的文档](https://pi.dev/docs/latest/models)。编辑 `~/.pi/agent/settings.json` 中的 `defaultModel`；将 `~/.pi/agent/models.json` 指向任意提供商。
+- **更换模型**——参考 [Pi 的文档](https://pi.dev/docs/latest/models)，或参考我们提供的 [~/.pi/agent/models.json](models.json) 和 [~/.pi/agent/settings.json](settings.json) 样例.
 - **权限规则**——在 [picc-permission-modes](https://github.com/Ladbaby/picc-permission-modes) 的配置中按工具、按模式串（pattern）配置规则。
 - **自定义**——每个扩展都是一个小巧、可读的 TypeScript 文件。fork 它、调整它、用 `pi install` 安装你自己的版本。
 
